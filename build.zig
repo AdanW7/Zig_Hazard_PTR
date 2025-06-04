@@ -12,15 +12,6 @@ pub fn build(b: *std.Build) void {
     });
 
 
-    // const lib = b.addLibrary(.{
-    //     .linkage = .static,
-    //     .name = "zig_HazardPtr",
-    //     .root_module = lib_mod,
-    // });
-    //
-    // b.installArtifact(lib);
-
-
     const lib_unit_tests = b.addTest(.{
         .root_module = lib_mod,
     });
