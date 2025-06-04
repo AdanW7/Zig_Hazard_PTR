@@ -3,7 +3,7 @@
 
     .version = "0.0.0",
 
-    .fingerprint = 0x57dd57cea481e9cb, // Changing this has security and trust implications.
+    .fingerprint = 0xba0017a78a3e7aee, // Changing this has security and trust implications.
 
     .minimum_zig_version = "0.14.0",
 
